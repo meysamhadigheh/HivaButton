@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <attr name="textSize" format="dimension" />
+    <attr name="typeface" format="string" />
+    <attr name="textColor" format="color" />
+    <attr name="iconSize" format="dimension" />
+    <attr name="lineWidth" format="dimension" />
+    <attr name="iconOn" format="reference" />
+    <attr name="iconOff" format="reference"/>
+    <attr name="dividerColor" format="color"/>
+    <attr name="rippleColor" format="color"/>
+    <attr name="tintColor" format="color"/>
+
+    <attr name="colNum" format="integer"/>
+    <attr name="hideAnimation" format="reference"/>
+    <attr name="showAnimation" format="reference"/>
+    <declare-styleable name="HivaButton">
+
+        <attr name="text" format="string" />
+        <attr name="textColor"/>
+        <attr name="textSize"/>
+        <attr name="textLines" format="integer"/>
+
+
+        <attr name="disabledBackground" format="color"/>
+        <attr name="disabledForeground" format="color"/>
+        <attr name="disabledDrawable" format="reference"/>
+
+
+        <attr name="radius" format="dimension"/>
+        <attr name="rounded" format="boolean"/>
+
+        <attr name="backgroundColor" format="color"/>
+        <attr name="backgroundDrawable" format="reference"/>
+        <attr name="rippleColor"/>
+
+        <attr name="loadingTint" format="color"/>
+
+        <attr name="backgroundSecondColor" format="color"/>
+        <attr name="gradientAgnle" format="integer"/>
+
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="strokeDashGap" format="integer"/>
+        <attr name="strokeColor" format="color"/>
+        <attr name="strokePressedColor" format="color"/>
+
+        <attr name="topLeftCorner" format="dimension"/>
+        <attr name="bottomLeftCorner" format="dimension"/>
+        <attr name="topRightCorner" format="dimension"/>
+        <attr name="bottomRightCorner" format="dimension"/>
+
+
+        <attr name="widthPadding" format="dimension"/>
+        <attr name="heightPadding" format="dimension"/>
+
+        <attr name="isToggle" format="boolean"/>
+        <attr name="isOn" format="boolean"/>
+        <attr name="toggleGroup" format="string" />
+        <attr name="toggleGroupCanBeEmpty" format="boolean"/>
+
+        <attr name="typeface" />
+        <attr name="icon" format="reference"/>
+        <attr name="iconTint" />
+        <attr name="iconWidth" format="dimension"/>
+        <attr name="space" format="dimension"/>
+        <attr name="iconPosition" format="enum">
+            <enum name="right" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="top" value="2"/>
+            <enum name="bottom" value="3"/>
+        </attr>
+
+
+        <attr name="textOff" format="string"/>
+        <attr name="textColorOff" format="color"/>
+        <attr name="backgroundColorOff" format="color"/>
+        <attr name="backgroundDrawableOff" format="reference"/>
+        <attr name="backgroundSecondColorOff" format="color"/>
+        <attr name="gradientAgnleOff" format="integer"/>
+        <attr name="rippleColor_Off" format="color"/>
+        <attr name="iconTintOff" format="integer"/>
+        <attr name="iconOff"/>
+        <attr name="strokeWidthOff" format="dimension"/>
+        <attr name="strokeColorOff" format="color"/>
+        <attr name="strokePressedColorOff" format="color"/>
+        <attr name="strokeDashGapOff" format="integer"/>
+
+
+    </declare-styleable>
+
+</resources>
